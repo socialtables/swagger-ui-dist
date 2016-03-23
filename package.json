@@ -1,0 +1,15 @@
+{
+	"name": "swagger-ui-dist",
+	"version": "0.0.1",
+	"description": "Swagger UI console distribution - wraps static assets built by swagger-ui, and provides path for static mounting",
+	"main": "swagger-ui-dist.js",
+	"devDependencies": {
+		"chai": "^2.1.0",
+		"mocha": "^2.1.0",
+		"swagger-ui": "^2.1.4"
+	},
+	"scripts": {
+		"build": "rm -rf ./dist; cp -r ./node_modules/swagger-ui/dist ./dist",
+		"test": "mocha"
+	}
+}

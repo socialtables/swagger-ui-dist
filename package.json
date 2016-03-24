@@ -1,6 +1,7 @@
 {
 	"name": "swagger-ui-dist",
 	"version": "0.0.1",
+	"license": "Apache-2",
 	"description": "Swagger UI console distribution - wraps static assets built by swagger-ui, and provides path for static mounting",
 	"main": "swagger-ui-dist.js",
 	"devDependencies": {

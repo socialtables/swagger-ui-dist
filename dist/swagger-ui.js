@@ -392,7 +392,7 @@ this["Handlebars"]["templates"]["main"] = Handlebars.template({"1":function(dept
 this["Handlebars"]["templates"]["operation"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
   return "deprecated";
   },"3":function(depth0,helpers,partials,data) {
-  return "            <a href=\"#\" class=\"admin-tag\">Admin Only</a>\n";
+  return "            <a href=\"#\" class=\"admin-tag\">Internal Only</a>\n";
   },"5":function(depth0,helpers,partials,data) {
   return "            <h4><span data-sw-translate>Warning: Deprecated</span></h4>\n";
   },"7":function(depth0,helpers,partials,data) {

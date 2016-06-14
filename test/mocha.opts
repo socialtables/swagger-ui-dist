@@ -1,1 +1,1 @@
-test/test-exposed-path.js
+--recursive --timeout 5000

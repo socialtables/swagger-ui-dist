@@ -1164,6 +1164,22 @@
 .swagger-section .api-popup-actions {
   padding-top: 10px;
 }
+.admin-tag {
+  font: 9px/1.5 'PT Sans', serif;
+  background: #eee;
+  border-radius: 3px;
+  color: white !important;
+  display: inline-block;
+  height: 20px;
+  line-height: 22px;
+  padding: 0 5px 1px 5px;
+  position: relative;
+  margin: 0px 0px 0px 10px;
+  text-decoration: none !important;
+  -webkit-transition: color 0.2s;
+  background-color: crimson;
+  vertical-align: middle;
+}
 .swagger-section .access {
   float: right;
 }
